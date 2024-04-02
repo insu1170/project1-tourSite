@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <link rel="stylesheet" href="./loginSignUp.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>회원가입</title>
+</head>
+
+<body>
+  <div>
+    <form id="idCheckForm" method="post">
+      <input name="id" id="Id" type="text" placeholder="id를 입력하세여"> <input type="submit" value="중복확인">
+    </form>
+    <input type="password" placeholder="사용 할 비밀번호" id='signUpInput' disabled>
+    <form>
+      <input type="submit" id="signUpBut" class="hidden">
+    </form>
+  </div>
+
+  <script src="./signup.js"></script>
+</body>
+
+</html>

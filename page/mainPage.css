@@ -1,0 +1,16 @@
+.TableDiv{
+  display: inline-block;
+}
+img{
+  width: 250px;
+  height: 200px;
+}
+.TdItem{
+  width: 250px;
+  height: 46px;
+}
+
+.items{
+  height: 300px;
+  border: solid 1px skyblue;
+}
